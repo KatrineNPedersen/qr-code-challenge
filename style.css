@@ -1,0 +1,83 @@
+body {
+  background-image: linear-gradient(#eee6e0, #f9faf2, #eee6e0);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  overflow: hidden;
+  min-width: 375px;
+  margin: 8vh 0;
+}
+
+section {
+  transition: ease all 0.5s;
+  background-color: hsl(212, 45%, 89%);
+  width: 375px;
+  margin: auto;
+  display: flex;
+  height: 85vh;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  width: 315px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+  margin: 5%;
+  border-radius: 5%;
+  width: 90%;
+}
+
+h1 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: auto;
+  width: 90%;
+  font-size: 23px;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  padding-top: 8%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-items: center;
+  color: hsl(217, 8%, 60%);
+  margin-top: 2.5vh;
+}
+.attribution a {
+  color: hsl(218, 44%, 22%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(230, 73%, 68%);
+}
+
+@media only screen and (min-width: 1400px) {
+  body {
+    margin: 12.5vh 0;
+  }
+
+  section {
+    transition: ease all 0.5s;
+    width: 90vw;
+    height: 75vh;
+  }
+
+  .attribution {
+    margin-top: 6.25vh;
+  }
+}
